@@ -4085,3 +4085,13 @@ name = "zeroize"
 version = "1.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "525b4ec142c6b68a2d10f01f7bbf6755599ca3f81ea53b8431b7dd348f5fdb2d"
+
+[[patch.unused]]
+name = "bitcoin"
+version = "0.32.0-rc1"
+source = "git+https://github.com/SCV-Soft/rust-bgeo#735aab4babe67dbde08aef0af6af4d39a34cc7cd"
+
+[[patch.unused]]
+name = "bitcoincore-rpc"
+version = "0.19.0"
+source = "git+https://github.com/SCV-Soft/rust-bgeocore-rpc#8665814da10116894a479cb9eccea434a0f6ef54"

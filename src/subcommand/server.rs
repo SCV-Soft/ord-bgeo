@@ -3664,7 +3664,7 @@ mod tests {
     let response = test_server.get("/blocktime");
 
     assert_eq!(response.status(), StatusCode::OK);
-    assert_eq!(response.text().unwrap(), "1231006505");
+    assert_eq!(response.text().unwrap(), "1706849649");
   }
 
   #[test]
